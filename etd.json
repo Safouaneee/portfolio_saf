@@ -1,0 +1,18 @@
+{
+  "etudiants": [
+    {
+      "id": "1",
+      "nom": "bahi",
+      "prenom": "rachid",
+      "filiere": "informatique",
+      "moyenne": 19
+    },
+    {
+      "id": "2",
+      "nom": "raji",
+      "prenom": "anouar",
+      "filiere": "Genie Industriel",
+      "moyenne": 17
+    }
+  ]
+}

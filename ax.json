@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "nom": "ali",
+      "loisirs": [
+        "voyage ",
+        " sport"
+      ],
+      "moyenne": 15
+    },
+    {
+      "id": "2",
+      "nom": "amine",
+      "loisirs": [
+        "music ",
+        "sport"
+      ],
+      "moyenne": 16
+    },
+    {
+      "id": "3",
+      "nom": "raji",
+      "loisirs": "music",
+      "moyenne": "19"
+    },
+    {
+      "id": "4",
+      "nom": "MOULID",
+      "loisirs": [
+        " ",
+        "sport",
+        " ",
+        "voyage"
+      ],
+      "moyenne": "15"
+    }
+  ]
+}
