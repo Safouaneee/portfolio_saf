@@ -16,7 +16,6 @@ function Modifier() {
         description: ""
     });
 
-    // حالات الأخطاء
     const [erreurNom, setErreurNom] = useState("");
     const [erreurTitre, setErreurTitre] = useState("");
     const [erreurBudget, setErreurBudget] = useState("");
@@ -25,20 +24,17 @@ function Modifier() {
     const [erreurPriorite, setErreurPriorite] = useState("");
     const [erreurDescription, setErreurDescription] = useState("");
 
-    // Fetch projet par id
     useEffect(() => {
         axios.get(`http://localhost:4900/projets/${id}`)
             .then(res => setForm(res.data))
             .catch(err => console.log(err));
     }, [id]);
 
-    // handle input change
     function handleChange(e) {
         const { name, value } = e.target;
         setForm({ ...form, [name]: value });
     }
 
-    // validation et submit
     function verifier(e) {
         e.preventDefault();
         let valid = true;
@@ -67,7 +63,6 @@ function Modifier() {
 
         if (!valid) return;
 
-        // Save changes
         axios.put(`http://localhost:4900/projets/${id}`, form)
             .then(() => navigate("/projets"))
             .catch(err => console.log(err));

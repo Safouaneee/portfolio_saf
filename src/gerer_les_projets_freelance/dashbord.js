@@ -12,8 +12,11 @@ function Dashbord(){
     const taux = useSelector(state=>state.taux_rs)
 
     const projets = useSelector(state=>state.projets)
-    const dernier_projets = [...projets].sort((a, b) => Number(b.id) - Number(a.id))
-    const work =projets.filter(elm=>elm.status!=="terminer "&& elm.status!=="annuler") 
+    const dernier_projets = [...projets].sort((a, b) => new Date(a.deadline) - new Date(b.deadline)).slice(0, 5);
+    const work_an =projets.filter(elm=>elm.status=="annuler") 
+    const work_ter =projets.filter(elm=>elm.status=="terminer") 
+    const work_to_do =projets.length - (work_an.length+work_ter.length)
+
 
      function getSatusClass(statuss){
         if(!statuss) return "status"
@@ -59,7 +62,7 @@ function Dashbord(){
                 <div className="morrning">
 
                         <h1>Good Morning Youssef</h1>
-                        <p>You have {work.length} new applications it is a lot of work for today !</p>
+                        <p>You have {work_to_do} new applications it is a lot of work for today !</p>
                         <p>So lets start</p>
                         
                          <a href="#tabl_pr" ><button id="lets_go">Review it</button></a>   
@@ -153,7 +156,7 @@ function Dashbord(){
            <section id="tabl_pr">
 
             <div className="progress_projects">
-                <h2>Projects Progress</h2>
+                <h2>Derniers projets</h2>
                 <Link to={"/projets"}>
                 
                       <button>View All</button>

@@ -4,8 +4,10 @@ function Home_pr_fr(){
 
     return(
         <div>
-            <nav className="navbar">
-        <h2>Freelance Pro</h2>
+        <img id="navv" src="/images_projets_freelance/freelance_logo.png"></img>
+            <nav className="navbar"id="nav">
+
+        <h2>Freelance </h2>
         <Link to={"/projets"}>
             <button className="btn-nav">Accéder à l'application</button>
         </Link>
