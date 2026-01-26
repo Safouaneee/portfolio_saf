@@ -33,15 +33,19 @@ import { Provider } from 'react-redux';
 //import Home_red from './learn_redux/home';
 //import store from './learn_redux/store';
 
-import store_fr from './gerer_les_projets_freelance/store_fr';
-import App_fr from './gerer_les_projets_freelance/app_freelance';
+//import store_fr from './gerer_les_projets_freelance/store_fr';
+//import App_fr from './gerer_les_projets_freelance/app_freelance';
+//import store from './redux_tolkit_understanding/store';
+//import App from './redux_tolkit_understanding/app';
+
+//import store_pr from './gestionaire_produits/store';
+//import Home from './gestionaire_produits/home';
+import App_portfolio from './portfolio/app_portfolio';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-      <Provider store={store_fr}> 
-           <App_fr /> 
-      </Provider> 
+      <App_portfolio/>
             
   </React.StrictMode>
 );
@@ -49,3 +53,4 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+//<Provider store={store_pr<Home /> </Provider> 
