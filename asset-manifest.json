@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_saf/static/css/main.3ce3f1c3.css",
-    "main.js": "/portfolio_saf/static/js/main.7b6460d2.js",
+    "main.css": "/portfolio_saf/static/css/main.75c031d6.css",
+    "main.js": "/portfolio_saf/static/js/main.59008571.js",
     "static/media/desipline.jpg": "/portfolio_saf/static/media/desipline.d32b0a21304dbf2fd38f.jpg",
     "static/media/pexels-olly-826349.jpg": "/portfolio_saf/static/media/pexels-olly-826349.ccc3b19c4ec2deea9de1.jpg",
     "static/media/pexels-bi-ravencrow-2154273033-33152024 (3).jpg": "/portfolio_saf/static/media/pexels-bi-ravencrow-2154273033-33152024 (3).0aa0a62dcca5003a8971.jpg",
     "static/media/pexels-steven-van-elk-9757164-18117649.jpg": "/portfolio_saf/static/media/pexels-steven-van-elk-9757164-18117649.81035569b7a315223dfd.jpg",
     "index.html": "/portfolio_saf/index.html",
-    "main.3ce3f1c3.css.map": "/portfolio_saf/static/css/main.3ce3f1c3.css.map",
-    "main.7b6460d2.js.map": "/portfolio_saf/static/js/main.7b6460d2.js.map"
+    "main.75c031d6.css.map": "/portfolio_saf/static/css/main.75c031d6.css.map",
+    "main.59008571.js.map": "/portfolio_saf/static/js/main.59008571.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ce3f1c3.css",
-    "static/js/main.7b6460d2.js"
+    "static/css/main.75c031d6.css",
+    "static/js/main.59008571.js"
   ]
 }
