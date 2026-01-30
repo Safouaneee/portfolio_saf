@@ -42,8 +42,8 @@ function Questions() {
           Helping you understand our process and offerings.
         </p>
       </div>
-          <img id="think" src="think.png"></img>
-          <img id="wom_think" src="wom_think.png"></img>
+          <img id="think" src={`${process.env.PUBLIC_URL}/think.png`}></img>
+          <img id="wom_think" src={`${process.env.PUBLIC_URL}/wom_think.png`}></img>
       <div className="faq">
         {faqs.map((faq, index) => (
           <div

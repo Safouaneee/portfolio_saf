@@ -13,7 +13,7 @@ function Work_process(){
 
             </div>
             <div className="work_pr">
-                <img src="dashed_circle.png"></img>
+                <img src={`${process.env.PUBLIC_URL}/dashed_circle.png`}></img>
                 <div className="ligne1">
                         <div className="atape1">
                             <i class="ri-lightbulb-line"></i>

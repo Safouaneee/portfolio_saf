@@ -1,10 +1,35 @@
+import { useEffect } from "react";
 function Projects(){
+    useEffect(() => {
+        let vantaEffect;
+    
+        if (window.VANTA) {
+          vantaEffect = window.VANTA.NET({
+            el: "#projects .vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200,
+            minWidth: 200,
+            scale: 1,
+            scaleMobile: 1,
+            color: 0xfb6607,
+            backgroundColor: 0x23153c
+          });
+        }
+    
+        return () => {
+          if (vantaEffect) vantaEffect.destroy();
+        };
+      }, []);
 
     return(
         <section id="projects">
+             <div className="vanta-bg"></div>
+
             <div className="desc_projets">
                 <div className="dec_title">
-                    <div id="my_pr" className="welcome">
+                    <div  id="my_pr" className="welcome">
                         <p>My Projects</p>
                     </div>
                     <h1>Projects I have done</h1>

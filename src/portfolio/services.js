@@ -4,16 +4,18 @@ function Services(){
     <section id="services" >
         <div className="sr">
                     <div className="me">
-                        <img src="man_experience.png"></img>
+                        <img src={`${process.env.PUBLIC_URL}/man_experience.png`}></img>
                     </div>
                     <div className="about_me">
-                        <div className="welcome">
+                        
+                        <div id="ab" className="welcome">
                                 <p>ABOUT ME</p>
                         </div>
+                        
                         <h1>Full-Stack Developer Crafting Modern Web Experiences</h1>
                         <p id="desc">I’m Safouane Moulid, a passionate Full-Stack Developer specialized in building modern, scalable, and high-performance web applications.</p>
 
-                        <div className="adv">
+                        <div id="first_Adv" className="adv">
                         
                                     <div className="checkbox">
                                                 <i class="ri-checkbox-circle-fill"></i>

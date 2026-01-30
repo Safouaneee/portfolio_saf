@@ -3,27 +3,28 @@ import { useState } from "react";
 function Client() {
   // array ديال clients
   const clients = [
-    {
-      img: "client1.jpg",
-      satisfaction: "95%",
-      message: "Safouane est un développeur full stack très compétentIl a livré un produit de haute qualité avec une grande attention aux détails.Nous le recommandons sans hésitation pour tout projet web complexe",
-      name: "Steve Prosser",
-      city: "Barcelona"
-    },
-    {
-      img: "client2.avif",
-      satisfaction: "90%",
-      message: "Travailler avec Safouane a été un réel plaisir.Il maîtrise parfaitement le front-end et le back-end, ce qui rend le développement fluide.Il communique clairement et répond rapidement à toutes nos questions.",
-      name: "Mary Johnson",
-      city: "London"
-    },
-    {
-      img: "client3.avif",
-      satisfaction: "92%",
-      message: "Safouane a démontré un professionnalisme exceptionnel.Il comprend rapidement les besoins et propose des solutions efficaces.Son travail a vraiment amélioré notre projet et respecté les délais.",
-      name: "John Smith",
-      city: "New York"
-    },   
+            {
+                    img: "client1.jpg",
+                    satisfaction: "95%",
+                    message: "Safouane is a highly skilled full stack developer. He delivered a high-quality product with great attention to detail. We recommend him without hesitation for any complex web project.",
+                    name: "Steve Prosser",
+                    city: "Barcelona"
+            },
+            {
+                    img: "client2.avif",
+                    satisfaction: "90%",
+                    message: "Working with Safouane has been a real pleasure. He perfectly masters both front-end and back-end, making development smooth. He communicates clearly and responds quickly to all our questions.",
+                    name: "Mary Johnson",
+                    city: "London"
+            },
+            {
+                    img: "client3.avif",
+                    satisfaction: "92%",
+                    message: "Safouane has demonstrated exceptional professionalism. He quickly understands needs and provides effective solutions. His work truly improved our project and met all deadlines.",
+                    name: "John Smith",
+                    city: "New York"
+            }
+
   ];
 
   // state ديال pagination
@@ -44,7 +45,7 @@ function Client() {
       <div className="what_say_header">
         <div className="title_client">
           <div id="wl" className="welcome">
-            <p>WELCOME TO SOCIALZY</p>
+            <p>Review clients</p>
           </div>
           <h1>What client says About Safouane</h1>
         </div>
@@ -55,7 +56,7 @@ function Client() {
 
       <div className="what_say_body">
         <div className="image_client">
-          <img src={client.img} alt={client.name} />
+          <img src={`${process.env.PUBLIC_URL}/${client.img}`} alt={client.name} />
         </div>
 
         <div className="level_satitsfaction">

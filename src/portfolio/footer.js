@@ -17,7 +17,7 @@ function Footer(){
 
                 </div>
                 <div className="pages">
-                    <h2>Other Pages</h2>
+                    <h2>Pages</h2>
                     <p><a><i class="ri-arrow-right-s-line"></i> Home</a></p>
                     <p><a><i class="ri-arrow-right-s-line"></i> About</a></p>
                     <p><a><i class="ri-arrow-right-s-line"></i> Skills</a></p>
@@ -44,10 +44,10 @@ function Footer(){
                     </div>
                     <p>Get the lastest news & updates</p>
                     <div className="social_media">
-                        <span><i class="ri-facebook-fill"></i></span>
-                        <span><i class="ri-instagram-fill"></i></span>
-                        <span><i class="ri-twitter-fill"></i></span>
-                        <span><i class="ri-linkedin-fill"></i></span>
+                        <span><a><i class="ri-facebook-fill"></i></a></span>
+                        <span><a><i class="ri-instagram-fill"></i></a></span>
+                        <span><a><i class="ri-twitter-fill"></i></a></span>
+                        <span><a><i class="ri-linkedin-fill"></i></a></span>
                     </div>
                 </div>
 

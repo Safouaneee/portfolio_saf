@@ -4,7 +4,7 @@ function Navbar(){
         <nav>
             <div className="logo">
                <h1 className="name_logo">
-                S<span id="a">a</span>fou<span>A</span>ne</h1>
+                S<span id="a">a</span>fou<span id="A">A</span>ne</h1>
             </div>
             <div className="links">
                 <a href="#home">Home</a>
@@ -15,7 +15,7 @@ function Navbar(){
 
             </div>
             <div className="phone_number">
-                <img src="icon_phone.png"></img>
+                <img src={`${process.env.PUBLIC_URL}/icon_phone.png`}></img>
                 <h2>(+212) 689 52 41 38</h2>
             </div>
         </nav>

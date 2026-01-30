@@ -1,6 +1,5 @@
 
 import "./portfolio.css"
-import Navbar from "./Navbar"
 import Home from "./home"
 import About from "./about"
 import Services from "./services"
@@ -11,24 +10,31 @@ import Questions from "./common_Questions"
 import Client from "./what_say"
 import Contact from "./contact"
 import Footer from "./footer"
+import Reveal from "./reveal"
 function App_portfolio(){
 
     return(
         <div className="hero">
-        <div className="container">
-            <Navbar/>
-            <Home/>
-            <About/>
-            <Services/>
+            <div className="hero_child">
 
-        </div>
-            <Skills></Skills>
-            <Work_process/>
-            <Projects/>
-            <Questions/>
-            <Client/>
-            <Contact/>
-            <Footer/>
+                    <div className="container">
+                    
+                        <Reveal><Home/></Reveal>
+                         
+                        
+                    </div>
+            </div>
+                <div className="container2">
+                    <Reveal><About/></Reveal>
+                    <Reveal><Services/></Reveal>
+                </div>
+            <Reveal><Skills></Skills></Reveal>
+            <Reveal><Work_process/></Reveal>
+            <Reveal><Projects/></Reveal>
+            <Reveal><Questions/></Reveal>
+            <Reveal><Client/></Reveal>
+            <Reveal><Contact/></Reveal> 
+            <Reveal><Footer/></Reveal>
             
         </div>
     )
