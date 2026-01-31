@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_saf/static/css/main.1adaa66c.css",
-    "main.js": "/portfolio_saf/static/js/main.76de1cd5.js",
+    "main.css": "/portfolio_saf/static/css/main.a1e3e7a3.css",
+    "main.js": "/portfolio_saf/static/js/main.24719e2c.js",
     "static/media/SVG-background-animation.gif": "/portfolio_saf/static/media/SVG-background-animation.404b141ac4f08063ea1e.gif",
     "static/media/desipline.jpg": "/portfolio_saf/static/media/desipline.d32b0a21304dbf2fd38f.jpg",
     "static/media/pexels-olly-826349.jpg": "/portfolio_saf/static/media/pexels-olly-826349.ccc3b19c4ec2deea9de1.jpg",
@@ -9,11 +9,11 @@
     "static/media/pexels-steven-van-elk-9757164-18117649.jpg": "/portfolio_saf/static/media/pexels-steven-van-elk-9757164-18117649.81035569b7a315223dfd.jpg",
     "static/media/Colored Shapes.svg": "/portfolio_saf/static/media/Colored Shapes.c55637b8801fdad7cac3.svg",
     "index.html": "/portfolio_saf/index.html",
-    "main.1adaa66c.css.map": "/portfolio_saf/static/css/main.1adaa66c.css.map",
-    "main.76de1cd5.js.map": "/portfolio_saf/static/js/main.76de1cd5.js.map"
+    "main.a1e3e7a3.css.map": "/portfolio_saf/static/css/main.a1e3e7a3.css.map",
+    "main.24719e2c.js.map": "/portfolio_saf/static/js/main.24719e2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1adaa66c.css",
-    "static/js/main.76de1cd5.js"
+    "static/css/main.a1e3e7a3.css",
+    "static/js/main.24719e2c.js"
   ]
 }
