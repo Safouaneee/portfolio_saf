@@ -29,7 +29,7 @@ function Projects(){
 
             <div className="desc_projets">
                 <div className="dec_title">
-                    <div  id="my_pr" className="welcome">
+                    <div id="my_pr" className="welcomee">
                         <p>My Projects</p>
                     </div>
                     <h1>Projects I have done</h1>

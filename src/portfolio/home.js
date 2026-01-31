@@ -16,7 +16,7 @@ function Home(){
 
                     
                         </p>
-                        <button>Get Started <i class="ri-arrow-right-circle-line"></i></button><br></br>
+                        <button><a id="get" href="#services">Get Started <i class="ri-arrow-right-circle-line"></i></a></button><br></br>
                         <img id="users" src={`${process.env.PUBLIC_URL}/users.png`}></img>
                     </div>
 

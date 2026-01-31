@@ -11,6 +11,10 @@ html {
     padding: 0;
     box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+}
+#get{
+    color: white;
 }
 :root {
   --hover-liens: #e46808;
@@ -195,7 +199,7 @@ nav{
     z-index: 1070;
     transform: scale(1);
     border-radius: 0 0 650px 600px;
-    top: -120px;
+    top: -110px;
     left: 130px;
 }
 #users{
@@ -279,7 +283,7 @@ gap: 170px;
     width: 500px;
     border-radius: 250px;
     z-index: 1000;
-translate: -50px -110px;  
+translate: -50px -100px;  
 }
 
 .about_me h1{
@@ -388,6 +392,7 @@ translate: -50px -110px;
 .skl img {
   width: 700px;
   margin-top: 50px;
+  transform: translateX(40px);
 }
 
 #work_process{
@@ -397,6 +402,7 @@ translate: -50px -110px;
     margin-top: 200px;
     display: flex;
     position: relative;
+    gap: 50px;
 }
 #wk{
     margin: 30px 0;
@@ -407,6 +413,7 @@ translate: -50px -110px;
 #desc_work{
     color: gray;
     margin: 20px 0;
+    width: 550px;
 }
 .description_work button{
     padding: 10px;
@@ -434,7 +441,7 @@ translate: -50px -110px;
     position: absolute;
     gap: 50px;
     top: -10px;
-    right:-30px ;
+    right:-30px;
 }
 
 .ligne2{
@@ -551,7 +558,21 @@ translate: -50px -110px;
     opacity: 1;
 }
 #my_pr{
-    margin: 30px 0;
+    background-color: var(--card-archivements);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    height: 38px;
+    margin-bottom: 30px;
+    
+}
+#my_pr p{
+    font-size: 12px;
+    color: var(--archivement);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 5px;
 }
 .paragraph_desc p{
     width: 500px;
@@ -1291,7 +1312,7 @@ color: var(--hover-why);
         margin-left: 35px;
     }
     #girl{
-        transform: scale(0.8) translate(5px,20px);
+        transform: scale(0.8) translate(5px,40px);
         margin-left: 35px;
 
     }
@@ -1441,7 +1462,7 @@ color: var(--hover-why);
     #girl {
         top: -110px;
         left: 120px;
-        transform: scale(0.65) translate(-180px,-30px);
+        transform: scale(0.65) translate(-190px,0px);
     }
 
     .welcome {
@@ -1505,7 +1526,7 @@ color: var(--hover-why);
 
     .me img {
         width: 480px;
-        translate: -48px -105px;
+        translate: -48px -100px;
     }
 .about_me{
     width: 400px;
@@ -1593,6 +1614,7 @@ color: var(--hover-why);
         min-height: 95vh;
         width: 78%;
         margin-top: 180px;
+        gap: 100px;
     }
 
     #wk {
@@ -1608,6 +1630,7 @@ color: var(--hover-why);
     #desc_work {
         font-size: 14px;
         margin: 18px 0;
+        width: 300px;
     }
 
     .description_work button {
@@ -1621,8 +1644,8 @@ color: var(--hover-why);
 
     .work_pr img {
         scale: 2.9;
-        visibility: hidden;
         translate: 100px 85px;
+        position: relative;
     }
 
     .ligne1 {
@@ -2170,7 +2193,7 @@ color: var(--hover-why);
     }
 
     #girl {
-        transform: translate(-70px, 20px);
+        transform: translate(-70px, 25px);
         scale: 0.9;
     }
 
@@ -2546,7 +2569,7 @@ top: 110px;
      #girl{
         margin: auto;
         width: 60%;
-        transform: translate(-20px,35px);
+        transform: translate(-20px,40px);
     }
     #wl{
         margin: auto;
@@ -2815,7 +2838,7 @@ top: 110px;
 
     #girl {
         scale: 1;
-        transform: translate(-45px,80px);
+        transform: translate(-45px,90px);
     }
    .about{
       width: 70%;
@@ -3077,33 +3100,44 @@ top: 110px;
 
     #bg_girl {
         scale: 0.7;
-        left: -110px;
+        left: 30px;
         top: 80px;
     }
-#p_home{
-    transform: translateX(23%);
-}
+        #p_home{
+           margin: auto;
+        }
 
     #girl {
-        scale: 0.7;
-        left: -30px;
-        top: -100px;
+        scale: 0.8;
+        left: 100px;
+        top: -90px;
     }
     #wl{
-        margin-top: 100px;
-        margin-right: 80px;
+       transform: translateX(-25px);
+    }
+    #users{
+        scale: 1;
+        transform: translateX(-20%) scale(0.6);
+    }
+    .left_home{
+        width: 100%;
+        text-align: center;
     }
     .left_home button{
-        transform: translateX(-1%);
+        transform: translate(60%);
+        display: block;
+        width: 40%;
     }
    .left_home h1{
-        transform: translateX(-1%);
+        transform: translateX(-12px);
         font-size: 1.4rem;
    }
    #p_home{
-    transform: translateX(-1%);
+    transform: translateX(-3%);
     font-size: 13px;
+    text-align: center;
     width: 300px;
+    margin-top: 20px;
    }
     .welcome {
         width: 160px;
@@ -3116,11 +3150,13 @@ top: 110px;
     }
 
     .about {
-        margin: 80px 0;
+        transform: translateX(-65px);
+       
     }
 
     .about1 {
         padding: 20px 15px;
+        width: 120%;
     }
 
     .card h2 {
@@ -3146,15 +3182,16 @@ top: 110px;
         translate: -50px -100px;
     }
      #ab{
-        transform: translateX(2%);
+        margin:30px auto;
      }  
     .about_me h1 {
         font-size: 1.2rem;
         width: 80%;
-        transform: translateX(25%);
+        margin:30px auto;
     }
     #desc{
-        transform: translateX(20%);
+        margin:30px auto;
+        width: 80%;
     }
     #mr_lf{
         margin-left: 50px;
@@ -3165,7 +3202,10 @@ top: 110px;
         margin-top:20px;
         gap: 5px;
         width: 80%;
-        margin-left: 20px;
+        margin-left: 110px;
+        
+        
+
     }
     .checkbox{
         background: none;
@@ -3185,10 +3225,18 @@ top: 110px;
     .skl h1 {
         font-size: 1.2rem;
         width: 300px;
-        transform: translateX(5%);
+        transform: translateX(-15%);
+    }
+    #wel{
+        transform: translateX(-30%);
     }
     .skl img{
-        transform: translateX(-5%);
+        
+        width: 100%;
+    }
+    #desc_sk{
+        width: 90%;
+        transform: translateX(-15%);
     }
 
     /* WORK PROCESS */
@@ -3198,23 +3246,28 @@ top: 110px;
 
     .description_work h2 {
         font-size: 1.5rem;
-        transform: translateX(18%);
+        
     }
     #desc_work{
         transform: translateX(1%);
         text-align: center;
 
     }
+    .ligne1{
+        margin-right: 20px;
+    }
+     .ligne2{
+        margin-right: 20px;
+    }
+   
    
 
-    #wk{
-        transform: translateX(-3%);
-    }
-
+ 
     .description_work button {
         width: 90%;
         transform: translateX(5%);
     }
+    
 
     .atape1 h1, .atape2 h1, .etape3 h1, .etape4 h1 {
         font-size: 2rem;
@@ -3225,20 +3278,39 @@ top: 110px;
         padding-top: 20px;
         margin-top: 50px;
     }
-    #projects{
-        width: 100%;
-    }
+    
 
     .dec_title h1 {
         font-size: 1.5rem;
     }
-
+    #my_pr{
+        margin-top: 50px;
+        background-color: var(--card-archivements);
+        width: 150px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        padding: 5px;
+        border-radius: 15px;
+        height: 35px;
+        color: var(--archivement);
+        
+    }
+    .paragraph_desc p{
+          width: 100%;
+          
+          
+    }
     .paragraph_desc button {
         width: 100%;
     }
 
     .prj1, .prj2, .prj3, .prj4 {
         height: 300px;
+    }
+    .prj1 h3, .prj2 h3, .prj3 h3, .prj4 h3 {
+        font-weight: 700;
+        margin:10px auto;
     }
 
     .prj1 button, .prj2 button, .prj3 button, .prj4 button {
@@ -3250,11 +3322,11 @@ top: 110px;
 
     /* QUESTIONS */
     .faq-card {
-        padding: 15px;
+        padding: 20px;
     }
 
     .faq-header h2 {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .faq-btn {
@@ -3264,18 +3336,25 @@ top: 110px;
     }
 
     /* CLIENT SAY */
+    #wl{
+        margin-top: 50px;
+    }
     .title_client h1 {
         font-size: 1.5rem;
         text-align: center;
+        transform: translateX(-5%);
+    }
+    #desc_cl{
+        transform: translateX(-5%);
+    }
+    .what_say_body{
+        transform: translateX(18%);
+
     }
     #what_client_say{
         padding-top: 20px;
     }
-     #wl{
-        transform: translateX(2px);
-
-    }
-
+    
     .image_client {
         width: 150px;
         height: 150px;
@@ -3308,7 +3387,7 @@ body {
     /* CONTACT */
     #title_contact {
         font-size: 1.3rem;
-        transform: translateX(-20%);
+        transform: translateX(-25%);
     }
     .second_ligne{
         gap: 20px;
@@ -3321,12 +3400,10 @@ body {
     #enr {
         width: 100%;
     }
-    #desc_contact{
-        transform: translateX(-23%);
-    }
+    
     #form_conatct {
-        width: 300px;
-        margin-right: 50px;
+        width: 350px;
+        margin-right: 10px;
     }
     .img_contact{
         height: 200px;

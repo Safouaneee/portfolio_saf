@@ -18,7 +18,7 @@ function Client() {
                     city: "London"
             },
             {
-                    img: "client3.avif",
+                    img: "client3.png",
                     satisfaction: "92%",
                     message: "Safouane has demonstrated exceptional professionalism. He quickly understands needs and provides effective solutions. His work truly improved our project and met all deadlines.",
                     name: "John Smith",
@@ -44,7 +44,7 @@ function Client() {
     <section id="what_client_say">
       <div className="what_say_header">
         <div className="title_client">
-          <div id="wl" className="welcome">
+          <div name="rv" id="wl" className="welcome">
             <p>Review clients</p>
           </div>
           <h1>What client says About Safouane</h1>
